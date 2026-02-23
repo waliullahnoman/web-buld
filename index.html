@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">My Business</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Grow Your Business With Us</h1>
+        <p>Professional Solutions for Modern Businesses</p>
+        <button onclick="scrollToSection('contact')">Get In Touch</button>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Lead Generation</h3>
+                <p>High-quality B2B & B2C leads for business growth.</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>Modern responsive websites for your brand.</p>
+            </div>
+            <div class="card">
+                <h3>Cyber Security</h3>
+                <p>Secure your business from online threats.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section light">
+        <h2>Recent Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Corporate Website</h3>
+                <p>Professional company website project.</p>
+            </div>
+            <div class="card">
+                <h3>E-commerce Store</h3>
+                <p>Full online shopping platform.</p>
+            </div>
+            <div class="card">
+                <h3>Marketing Campaign</h3>
+                <p>Lead generation campaign for clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Business. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
